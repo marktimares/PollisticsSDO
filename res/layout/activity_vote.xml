@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/refres_button_padding" >
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/version_spacing"
+        android:layout_marginRight="@dimen/version_spacing"
+        android:layout_marginTop="@dimen/version_spacing"
+        android:background="@color/refresh_button_color"
+        android:ems="10"
+        android:maxWidth="@dimen/refresh_button_width"
+        android:padding="@dimen/refres_button_padding"
+        android:text="@string/question_header"
+        android:textSize="@dimen/header_text_size"
+      
+        android:typeface="normal"
+        android:width="@dimen/refresh_button_width" />
+
+    <TextView
+        android:id="@+id/questionField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/question_bottom_padding"
+        android:layout_marginLeft="@dimen/version_spacing"
+        android:layout_marginRight="@dimen/version_spacing"
+        android:background="@color/refresh_button_color"
+        android:ems="10"
+        android:maxWidth="@dimen/refresh_button_width"
+        android:padding="@dimen/refres_button_padding"
+        android:text="@string/question_placeholder"
+        android:textStyle="italic"
+        android:typeface="normal"
+        android:width="@dimen/refresh_button_width" />
+           
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+<View android:layout_width="fill_parent" android:layout_height=".25dp" 
+   	  android:background="@color/black"
+/>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_row_padding" >
+            
+            <Button
+                android:id="@+id/buttonA"
+                android:onClick="@string/Button_Post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/button1_color"
+                android:height="@dimen/answer_text_height"
+                android:minWidth="100dip"
+                android:text="@string/TempPollAnswerA"
+                android:width="@dimen/vote_button_width" />
+
+            <TextView
+                android:id="@+id/textViewA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:minHeight="@dimen/answer_text_height"
+                android:padding="@dimen/selection_text_padding"
+                android:text="@string/loading"
+                android:width="@dimen/answer_text_width" />
+            
+        </TableRow>
+<View android:layout_width="fill_parent" android:layout_height=".25dp" 
+   	  android:background="@color/black"
+/>
+         <TableRow
+             android:id="@+id/tableRow2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="@dimen/table_row_padding" >
+            
+            <Button
+                android:id="@+id/buttonB"
+            android:onClick="@string/Button_Post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/button2_color"
+                android:height="@dimen/answer_text_height"
+                android:minWidth="100dip"
+                 android:text="@string/TempPollAnswerB"
+                android:width="@dimen/logo_size" />
+
+            <TextView
+                android:id="@+id/textViewB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:minHeight="@dimen/answer_text_height"
+                android:padding="@dimen/selection_text_padding"
+                android:text="@string/loading"
+                android:width="@dimen/answer_text_width" />
+            
+        </TableRow>
+<View android:layout_width="fill_parent" android:layout_height=".25dp"
+   	  android:background="@color/black"
+/>
+         <TableRow
+             android:id="@+id/tableRow3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="@dimen/table_row_padding" >
+            
+            <Button
+                android:id="@+id/buttonC"
+                   android:onClick="@string/Button_Post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/button3_color"
+                android:height="@dimen/answer_text_height"
+                android:minWidth="100dip"
+                 android:text="@string/TempPollAnswerC"
+                android:width="@dimen/logo_size" />
+
+            <TextView
+                android:id="@+id/textViewC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:minHeight="@dimen/answer_text_height"
+                android:padding="@dimen/selection_text_padding"
+                android:text="@string/loading"
+                android:width="@dimen/answer_text_width" />
+            
+        </TableRow>
+<View android:layout_width="fill_parent" android:layout_height=".25dp"
+   	  android:background="@color/black"
+/>
+         <TableRow
+             android:id="@+id/tableRow4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="@dimen/table_row_padding" >
+            
+            <Button
+                android:id="@+id/buttonD"
+                   android:onClick="@string/Button_Post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/button4_color"
+                android:height="@dimen/answer_text_height"
+                android:minWidth="100dip"
+                android:text="@string/TempPollAnswerD"
+                android:width="@dimen/logo_size" />
+
+            <TextView
+                android:id="@+id/textViewD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:minHeight="@dimen/answer_text_height"
+                android:padding="@dimen/selection_text_padding"
+                android:text="@string/loading"
+                android:width="@dimen/answer_text_width" />
+            
+        </TableRow>
+<View android:layout_width="fill_parent" android:layout_height=".25dp" 
+   	  android:background="@color/black"
+/>        <TableRow
+               android:id="@+id/tableRow5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="@dimen/table_row_padding" >"   "
+        </TableRow>    
+  </TableLayout>
+ 
+            <Button
+                android:id="@+id/button1"
+              	android:onClick="@string/Refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/refresh_button_color"
+                android:height="@dimen/refresh_button_height"
+                android:minHeight="@dimen/refresh_button_height"
+                android:minWidth="@dimen/refresh_button_width"
+                android:padding="@dimen/refres_button_padding"
+                android:text="@string/menu_refresh"
+                android:width="@dimen/logo_size" />
+
+            <TextView
+                android:id="@+id/responseField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading" />
+
+</LinearLayout>
